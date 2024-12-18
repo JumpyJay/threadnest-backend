@@ -1,25 +1,46 @@
-# README
+# ThreadNest Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ThreadNest is a Rails API backend that powers the ThreadNest forum platform, handling authentication, threads, comments, and more.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Quick Start
 
-* System dependencies
+1. Clone the repository:
 
-* Configuration
+   ```bash
+   git clone https://github.com/yourusername/threadnest-backend.git
+   cd threadnest-backend
+   ```
 
-* Database creation
+2. Install dependencies:
 
-* Database initialization
+   ```bash
+   bundle install
+   ```
 
-* How to run the test suite
+3. Set up the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```bash
+   rails db:create db:migrate db:seed
+   ```
 
-* Deployment instructions
+4. Start the Rails server:
+   ```bash
+   rails server
+   ```
 
-* ...
-# threadnest-backend1
+---
+
+## Features
+
+- Token-based user authentication.
+- CRUD operations for threads and comments.
+- RESTful API for frontend integration.
+
+---
+
+## Technologies Used
+
+- **Ruby on Rails** - API development framework.
+- **PostgreSQL** - Database for data storage.
