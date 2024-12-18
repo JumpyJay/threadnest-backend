@@ -9,7 +9,7 @@ ThreadNest is a Rails API backend that powers the ThreadNest forum platform, han
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/threadnest-backend.git
+   git clone https://github.com/JumpyJay/threadnest-backend.git
    cd threadnest-backend
    ```
 
@@ -34,7 +34,6 @@ ThreadNest is a Rails API backend that powers the ThreadNest forum platform, han
 
 ## Features
 
-- Token-based user authentication.
 - CRUD operations for threads and comments.
 - RESTful API for frontend integration.
 
